@@ -1,4 +1,8 @@
-# AteamDemoProject
+# Installation
+Type the following to install the demo.
+npm install -g @angular/cli
+npm install
+# Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
 
