@@ -1,0 +1,17 @@
+.user-dialog{
+  .mat-dialog-container{
+      overflow: visible !important;
+      .close-btn-outer{
+          position: relative;
+          button{
+              position: absolute;
+              right: -44px;
+              top: -44px;
+          }
+      }
+
+  }
+}
+.example-card {
+  width: 400px;
+}

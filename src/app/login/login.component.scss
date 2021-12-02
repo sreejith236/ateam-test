@@ -1,0 +1,155 @@
+#login {
+
+  width           : 100%;
+  background-image: url('https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg');
+  background-size : cover;
+  background-repeat: no-repeat;
+height: 100%;
+  .email {
+      color: white;
+  }
+
+  .header {
+      color      : white;
+      font-size  : 40px;
+      font-weight: 700;
+
+  }
+
+  .mat-form-field-outline-start,
+  .mat-form-field-outline-end {
+      border-radius: 0;
+  }
+
+  .mat-form-field-appearance-outline .mat-form-field-outline-thick {
+      color: #fff;
+  }
+
+  .mat-form-field-appearance-outline .mat-form-field-outline {
+      color: #fff;
+  }
+
+  .mat-form-field-can-float .mat-form-field-autofill-control:-webkit-autofill+.mat-form-field-label-wrapper .mat-form-field-label {
+      color: #fff;
+  }
+
+  .mat-form-field-appearance-outline .mat-form-field-infix {
+      padding: 0.5em 0 0.7em 0;
+  }
+
+  .mat-form-field-label {
+      color    : #fff;
+      transform: translateY(-0.59375em);
+  }
+
+  .mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label,
+  .mat-form-field-appearance-outline.mat-form-field-can-float .mat-input-server:focus+.mat-form-field-label-wrapper .mat-form-field-label {
+      transform: translateY(-1.59375em) scale(0.75) !important;
+  }
+
+  .mat-checkbox-frame {
+      border-color: transparent;
+  }
+
+  .icons {
+      font-size: 28px;
+      height   : 30px;
+      width    : 30px;
+      top      : 0px;
+      position : relative;
+      left     : 7px;
+      color    : black;
+      display  : inline-block;
+  }
+
+  .mat-form-field-prefix {
+      left      : -11px;
+      padding   : 6px 0px;
+      top       : 5px;
+      background: #fff;
+      height    : 32px;
+      width     : 43px;
+  }
+
+  img {
+      height    : 100%;
+      width     : 100%;
+      object-fit: cover;
+  }
+
+  #login-form-wrapper {
+
+      place-content: center;
+      width        : 440px;
+      margin       : 0 auto;
+
+
+  }
+
+  .headtype {
+      background-color: #00185c;
+      color           : #fff;
+      padding         : 24px 34px !important;
+      border-radius   : 12px;
+  }
+
+  .forgot-password {
+      color      : white;
+      padding-top: 5%;
+  }
+
+
+
+  .loginButton {
+      background-color: #054293;
+      color           : white;
+      font-size       : 16px;
+      padding         : 8px 16px;
+      display         : block;
+      float           : right;
+      border-radius   : 25px;
+      width           : 170px;
+      height          : 47px;
+      cursor          : pointer;
+      pointer-events  : all;
+      line-height     : 24px;
+  }
+
+  .example-button-row {
+      position: relative;
+      left    : 41%;
+      top     : 15px;
+  }
+
+  .example-button-row .successbtn {
+      background-color: #01ab56;
+      color           : #fff;
+  }
+
+  .example-button-row .Cancelbtn {
+      background-color: #ab1401;
+      color           : #fff;
+  }
+
+  .sap1 {
+
+      margin-top: 10%;
+  }
+
+  //checkbox border
+  .mat-checkbox-inner-container {
+      display        : inline-block;
+      height         : 16px;
+      line-height    : 0;
+      margin         : auto;
+      margin-right   : 8px;
+      order          : 0;
+      position       : relative;
+      vertical-align : middle;
+      white-space    : nowrap;
+      width          : 16px;
+      flex-shrink    : 0;
+      /* border-color: white; */
+      border         : 2px solid rgb(255 255 255 / 70%);
+  }
+}

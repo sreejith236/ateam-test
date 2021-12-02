@@ -1,0 +1,13 @@
+<mat-form-field appearance="outline" [formGroup]='parentForm' class="w-100">
+  <mat-label>User Name</mat-label>
+  <input class="email" placeholder="email" type="email"
+   matInput formControlName="email">
+  <span matPrefix class="icons">
+      <img src="assets/icons/Sample_User_Icon.png" alt="" >
+  </span>
+
+  <mat-error *ngIf="parentForm.get('email').hasError('required')">Email is required</mat-error>
+  <mat-error *ngIf="!parentForm.get('email').hasError('required') && parentForm.get('email').hasError('strong')"
+  >Please enter a valid email address
+</mat-error>
+</mat-form-field>

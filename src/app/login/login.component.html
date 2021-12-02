@@ -1,0 +1,29 @@
+<div id="login" fxLayout="row wrap" class="sap" fxLayoutAlign="center center">
+  <!-- <div class="h2 mb-24 header" fxFlex="100" fxLayoutAlign="center center">ATEAM LOGIN</div> -->
+
+  <div fxlayout="column" fxlayoutalign="center center" id="login-form-wrapper"
+      ng-reflect-fx-layout="column" ng-reflect-fx-layout-align="center center">
+      <form class="mat-card mat-elevation-z4 p-24  sap1 headtype" [formGroup]="loginForm" (ngSubmit)="onSubmit()"
+          fxLayout="column" fxLayoutAlign="center" fxFlex="1 0 auto" name="form">
+              <app-input-email [parentForm]='loginForm'></app-input-email>
+
+    <app-input-password [parentForm]='loginForm'></app-input-password>
+
+
+          <div fxFlex="100" fxLayoutAlign="center" class="mb-24">
+              <a class="forgot-password" [routerLink]="'/apps/Forgotpassword'">
+                  Forgot Password?
+              </a>
+          </div>
+
+          <div class="remember-forgot-password" fxFlex="100" fxLayoutAlign="center center">
+              <button mat-raised-button
+                  class="loginButton">
+                  LOGIN
+              </button>
+          </div>
+      </form>
+
+  </div>
+
+</div>
